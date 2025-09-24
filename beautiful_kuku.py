@@ -10,7 +10,7 @@ def beautiful_kuku_table():
     for i in range(1, rows + 1):           # 1から入力行数までをiに取得する
         for j in range(1, cols + 1):       # 1から入力列数までをjに取得する
             result = i * j
-            print(f"{i:2} x {j:2} = {result}", end=" | ")  #iとjをそれぞれ幅2文字で右寄せにして|で区切る
+            print(f"{j} x {i} = {result:2}", end=" | ")  #i*jの結果を幅2文字で右寄せにして|で区切る
         print()   # 各段の終わりに改行
 
 # 関数を実行する
